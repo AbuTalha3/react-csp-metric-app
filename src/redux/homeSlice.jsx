@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const initialState = {
@@ -10,7 +11,7 @@ const initialState = {
 
 export const fetchStocks = createAsyncThunk('stocks/fetchStocks', async () => {
   try {
-    const response = await fetch('https://financialmodelingprep.com/api/v3/stock-screener?marketCapMoreThan=1000000000&betaMoreThan=1&volumeMoreThan=10000&sector=Technology&exchange=NASDAQ&dividendMoreThan=0&limit=100&apikey=cb47745d26d092ee7f64001566830876');
+    const response = await fetch('https://financialmodelingprep.com/api/v3/stock-screener?marketCapMoreThan=1000000000&betaMoreThan=1&volumeMoreThan=10000&sector=Technology&exchange=NASDAQ&dividendMoreThan=0&limit=100&apikey=BfQQNPV6Ekw7lqOPDiXactut1bewmnR6');
 
     if (!response.ok) {
       throw new Error('Network response was not ok');

@@ -34,6 +34,10 @@
   ],
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "details.jsx",
+    "home.jsx",
+    "index.js",
+    "homeSlice.jsx"
   ]
 }

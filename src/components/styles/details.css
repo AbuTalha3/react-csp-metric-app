@@ -9,7 +9,7 @@ body {
 .detHeader {
   align-items: center;
   padding: 2em 1em;
-  background-image: url('../../Assets/coinmarketcap.png');
+  /* background-image: url('../../Assets/coinmarketcap.png'); */
 }
 
 .details h1 {
