@@ -15,25 +15,27 @@ body {
 
 .stock-details h1 {
   color: rgb(250, 2, 2);
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: flex-end;
   display: flex;
   padding-bottom: 50px;
 }
 
-.detnav {
+.nav-toggle {
   height: 50px;
   display: flex;
   align-items: center;
   background-color: #c12b2b;
   width: 100%;
   margin: 0;
+  margin-top: 5px;
 }
 
-.back {
+.nav-toggle-back {
   justify-content: left;
-  padding: 10px;
+  padding: 15px;
   font-size: x-large;
+  font-weight: bold;
 }
 
 .detdesc {

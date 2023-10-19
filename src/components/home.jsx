@@ -1,9 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import './styles/home.css';
 import { NavLink } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
+import './styles/home.css';
 import { fetchStocks, select, search } from '../redux/homeSlice';
 
 const Home = () => {
@@ -11,8 +11,11 @@ const Home = () => {
   const loading = useSelector((state) => state.stocks.loading);
   const searchTerm = useSelector((state) => state.stocks.searchTerm);
   const dispatch = useDispatch();
+
   useEffect(() => {
-    if (stocks.length === 0) dispatch(fetchStocks());
+    if (stocks.length === 0) {
+      dispatch(fetchStocks());
+    }
   }, [dispatch, stocks.length]);
 
   if (loading) {
@@ -39,27 +42,34 @@ const Home = () => {
         <p>NSX</p>
       </div>
       <ul className="stock-list-company">
-        {
-          stocks.map((stock) => (
-            stock.companyName.toLowerCase().includes(searchTerm.toLowerCase()) ? (
-              <NavLink to={`/details/${stock.id}`} onClick={() => dispatch(select(stock.id))} key={stock.id} className="stock-company-item">
-                <div className="namePrice">
-                  <div className="bottom">
-                    <span className="back-arrow">
-                      {BsArrowRightCircle > 0
-                        ? <BsArrowRightCircle className="back-arrow" /> : <BsArrowRightCircle className="arrow" />}
-                    </span>
-                    <h3 className="company-name">{stock.companyName}</h3>
-                    <span className="price">
-                      Price: $
-                      {stock.price}
-                    </span>
-                  </div>
+        {stocks
+          .filter((stock) =>
+            stock.companyName.toLowerCase().includes(searchTerm.toLowerCase())
+          )
+          .map((stock) => (
+            <NavLink
+              to={`/details/${stock.id}`}
+              onClick={() => dispatch(select(stock.id))}
+              key={stock.id}
+              className="stock-company-item"
+            >
+              <div className="namePrice">
+                <div className="bottom">
+                  <span className="back-arrow">
+                    {stock.price > 0 ? (
+                      <BsArrowRightCircle className="back-arrow" />
+                    ) : (
+                      <BsArrowRightCircle className="back-arrow" />
+                    )}
+                  </span>
+                  <h3 className="company-name">{stock.companyName}</h3>
+                  <span className="price">
+                    Price: ${stock.price}
+                  </span>
                 </div>
-              </NavLink>
-            ) : ''
-          ))
-        }
+              </div>
+            </NavLink>
+          ))}
       </ul>
     </div>
   );

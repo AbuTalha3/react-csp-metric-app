@@ -13,8 +13,8 @@ const Detail = () => {
   return (
 
     <div className="flex">
-      <nav className="detnav">
-        <NavLink to="/" className="back"><AiOutlineArrowLeft style={{ color: 'seashell' }} /></NavLink>
+      <nav className="nav-toggle">
+        <NavLink to="/" className="nav-toggle-back"><AiOutlineArrowLeft style={{ color: 'seashell' }} /></NavLink>
       </nav>
       {
                 selectedStockId ? (
