@@ -7,7 +7,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [Live Video](#live-video)
+  - [Video Presentation](#live-video-Presentation)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -25,7 +25,7 @@
 
 # 📖 [React-csp-metric-app] <a name="about-project"></a>
 
-*[React-csp-metric-app]* In this capstone project, I developed an innovative app that provides comprehensive numarical information about a wide range of active companies stocks data. The app showcases detailed company profiles along with their performance metrics, allowing users to search their companies and see their Market Capitalisation and PROFIT DIVIDENDS which are real time and updated every 1 minute, 15 minutes, 30 minutes, 1 hour and daily historical stock prices. The App has have several pages.
+*[React-csp-metric-app]* In this capstone project, I developed an innovative Stock app that provides comprehensive numarical information about a wide range of active companies stocks data. The app showcases detailed company profiles along with their performance metrics, allowing users to search their companies and see their Market Capitalisation and PROFIT DIVIDENDS which are real time and updated every 1 minute, 15 minutes, 30 minutes, 1 hour and daily historical stock prices. The App has have several pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,10 +78,10 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](will be added soon)
+- [Live Demo Link](https://cheerful-haupia-208b4f.netlify.app/)
 
 ## 🚀 Video Link <a name="live-demo"></a>
-- [Video Link](wil be added on demand)
+- [Video Link](https://www.loom.com/share/d7bac63093e246f1a7a6b9d58f6b85b9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
