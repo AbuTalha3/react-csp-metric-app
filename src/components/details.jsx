@@ -18,33 +18,33 @@ const Detail = () => {
       </nav>
       {
                 selectedStockId ? (
-                  <div className="details">
+                  <div className="stock-details">
                     <div className="detHeader">
                       <h1>{stock.companyName}</h1>
                     </div>
-                    <div className="financial">
+                    <div className="stock-metric-details">
                       <p className="detdesc">Company financial information</p>
                     </div>
-                    <div className="barContainer">
-                      <div className="infobar">
-                        <span className="infoname">Price  </span>
-                        <span className="infonumeric">{stock.price}</span>
+                    <div className="stock-bar-container">
+                      <div className="stock-infobar">
+                        <span className="stock-info-name">Price  </span>
+                        <span className="stock-metric-info">{stock.price}</span>
                       </div>
-                      <div className="infobar">
-                        <span className="infoname">Volume  </span>
-                        <span className="infonumeric">{stock.volume}</span>
+                      <div className="stock-infobar">
+                        <span className="stock-info-name">Volume  </span>
+                        <span className="stock-metric-info">{stock.volume}</span>
                       </div>
-                      <div className="infobar">
-                        <span className="infoname">Beta  </span>
-                        <span className="infonumeric">{stock.beta}</span>
+                      <div className="stock-infobar">
+                        <span className="stock-info-name">Beta  </span>
+                        <span className="stock-metric-info">{stock.beta}</span>
                       </div>
-                      <div className="infobar">
-                        <span className="infoname">Dividend  </span>
-                        <span className="infonumeric">{stock.lastAnnualDividend}</span>
+                      <div className="stock-infobar">
+                        <span className="stock-info-name">Dividend  </span>
+                        <span className="stock-metric-info">{stock.lastAnnualDividend}</span>
                       </div>
-                      <div className="infobar">
-                        <span className="infoname">Market Cap  </span>
-                        <span className="infonumeric">{stock.marketCap}</span>
+                      <div className="stock-infobar">
+                        <span className="stock-info-name">Market Cap  </span>
+                        <span className="stock-metric-info">{stock.marketCap}</span>
                       </div>
                     </div>
                   </div>

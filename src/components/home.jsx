@@ -20,34 +20,34 @@ const Home = () => {
   }
 
   return (
-    <div className="container">
-      <nav className="navbar">
-        <h1>Stocks</h1>
-        <div className="searchbar">
+    <div className="stock-list-container">
+      <nav className="stock-list-navbar">
+        <h1 className="stock-list-heading"> Ben Stocks </h1>
+        <div className="stock-list-searchbar">
           <label htmlFor="search">
             Search
             <input
               id="search"
-              className="search"
+              className="stock-list-search"
               onChange={(event) => dispatch(search(event.target.value))}
               type="text"
             />
           </label>
         </div>
       </nav>
-      <div className="header">
-        <p>$$$</p>
+      <div className="stock-list-header">
+        <p>NSX</p>
       </div>
-      <ul className="companyList">
+      <ul className="stock-list-company">
         {
           stocks.map((stock) => (
             stock.companyName.toLowerCase().includes(searchTerm.toLowerCase()) ? (
-              <NavLink to={`/details/${stock.id}`} onClick={() => dispatch(select(stock.id))} key={stock.id} className="companyListItem">
+              <NavLink to={`/details/${stock.id}`} onClick={() => dispatch(select(stock.id))} key={stock.id} className="stock-company-item">
                 <div className="namePrice">
                   <div className="bottom">
-                    <span className="arrow">
+                    <span className="back-arrow">
                       {BsArrowRightCircle > 0
-                        ? <BsArrowRightCircle className="arrow" /> : <BsArrowRightCircle className="arrow" />}
+                        ? <BsArrowRightCircle className="back-arrow" /> : <BsArrowRightCircle className="arrow" />}
                     </span>
                     <h3 className="company-name">{stock.companyName}</h3>
                     <span className="price">
