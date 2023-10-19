@@ -8,7 +8,7 @@
 }
 
 .App {
-  background-color: #f84343;
+  background-color: #ef3333;
   min-height: 100vh;
 }
 
@@ -23,13 +23,14 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
-  margin: 10px;
+  margin: 10px;;
 }
 
 .stock-list-searchbar {
   display: flex;
+  margin-right: 15px;
   font-size: 20px;
-  color: rgb(246, 250, 246);
+  color: rgb(248, 250, 248);
   font-weight: bold;
 }
 
