@@ -78,10 +78,11 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
 - [Live Demo Link](https://cheerful-haupia-208b4f.netlify.app/)
 
-## 🚀 Video Link <a name="live-demo"></a>
-- [Video Link](https://www.loom.com/share/d7bac63093e246f1a7a6b9d58f6b85b9)
+## 🚀 Video Presentation Link <a name="live-demo"></a>
+- [Video Presentation](https://www.loom.com/share/d7bac63093e246f1a7a6b9d58f6b85b9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
