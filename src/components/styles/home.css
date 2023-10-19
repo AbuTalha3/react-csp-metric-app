@@ -28,15 +28,15 @@
 
 .stock-list-searchbar {
   display: flex;
-  gap: 10px;
   font-size: 20px;
-  color: white;
+  color: rgb(246, 250, 246);
+  font-weight: bold;
 }
 
 .stock-list-search {
   height: 6vh;
   margin-bottom: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .stock-list-header {
