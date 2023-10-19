@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
@@ -43,9 +42,7 @@ const Home = () => {
       </div>
       <ul className="stock-list-company">
         {stocks
-          .filter((stock) =>
-            stock.companyName.toLowerCase().includes(searchTerm.toLowerCase())
-          )
+          .filter((stock) => stock.companyName.toLowerCase().includes(searchTerm.toLowerCase()))
           .map((stock) => (
             <NavLink
               to={`/details/${stock.id}`}
@@ -64,7 +61,8 @@ const Home = () => {
                   </span>
                   <h3 className="company-name">{stock.companyName}</h3>
                   <span className="price">
-                    Price: ${stock.price}
+                    Price: $
+                    {stock.price}
                   </span>
                 </div>
               </div>
