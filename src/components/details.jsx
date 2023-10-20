@@ -64,7 +64,6 @@ const Detail = () => {
                   </div>
                 ) : <div>Data not loaded </div>
             }
-
       </div>
     </>
   );

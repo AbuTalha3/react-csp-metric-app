@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   padding: 2em 1em;
   background-size: contain;
-  background-color: #FD5294;
+  background-color: #fd5294;
 }
 
 .price-detail-page {
@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FD5294;
+  background-color: #fd5294;
   opacity: 0.9;
   width: 100%;
   margin: 0;
@@ -74,7 +74,7 @@ body {
 }
 
 .stock-infobar:nth-child(even) {
-  background-color: #FD5294;
+  background-color: #fd5294;
 }
 
 .stock-info-name {
@@ -91,6 +91,6 @@ body {
 }
 
 .stock-infobar:nth-child(odd) {
-  background-color: #FD5294;
+  background-color: #fd5294;
   opacity: 0.9;
 }

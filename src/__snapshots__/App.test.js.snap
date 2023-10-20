@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests rect-csp-metric-app render details page component correctly 1`] = `<details />`;
+
+exports[`tests rect-csp-metric-app render home page component correctly 1`] = `
+<h1>
+  Loading...
+</h1>
+`;
+
+exports[`tests rect-csp-metric-app render home page component correctly 2`] = `
+<h1>
+  Loading...
+</h1>
+`;
