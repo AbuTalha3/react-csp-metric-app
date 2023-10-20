@@ -1,9 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter, MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Home from './components/home';
-import Detail from './components/details';
 import store from './store';
 import App from './App';
 
