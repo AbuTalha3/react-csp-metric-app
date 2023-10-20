@@ -57,6 +57,14 @@
   color: azure;
 }
 
+.header-year-view {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  
+}
+
 .stock-list-company {
   display: flex;
   flex-wrap: wrap;

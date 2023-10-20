@@ -22,7 +22,7 @@ const Detail = () => {
                       <h1>{stock.companyName}</h1>
                     </div>
                     <div className="stock-metric-details">
-                      <p className="detdesc">Company financial information</p>
+                      <p className="company-share-view">COMPANY/SHARE VIEW</p>
                     </div>
                     <div className="stock-bar-container">
                       <div className="stock-infobar">

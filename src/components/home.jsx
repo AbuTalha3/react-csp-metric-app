@@ -24,8 +24,13 @@ const Home = () => {
   return (
     <div className="stock-list-container">
       <nav className="stock-list-navbar">
-        <h2>2023</h2>
-        <h1 className="stock-list-heading"> BEN STOCKS </h1>
+        <div className="header-year-view">
+          <i className="fa-solid fa-arrow-up fa-rotate-270 fa-xs icon" />
+          <h2 className="stock-year">2023</h2>
+          <h1 className="stock-list-heading">more views</h1>
+          <i className="fa-solid fa-microphone fa-sm icon1" />
+          <i className="fa-solid fa-gear fa-sm icon2" />
+        </div>
         <div className="stock-list-searchbar">
           <label htmlFor="search">
             Search

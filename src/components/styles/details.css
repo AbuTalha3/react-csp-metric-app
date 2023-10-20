@@ -9,13 +9,12 @@ body {
 .detHeader {
   align-items: center;
   padding: 2em 1em;
-  background-image: url('../../Assets/coinmarketcapthree.jpeg');
   background-size: contain;
 }
 
 .stock-details h1 {
-  color: rgb(253, 34, 71);
-  font-size: 1rem;
+  color: rgb(250, 246, 247);
+  font-size: 1.5rem;
   justify-content: flex-end;
   display: flex;
   padding-bottom: 50px;
@@ -37,10 +36,12 @@ body {
   font-weight: bold;
 }
 
-.detdesc {
+.company-share-view {
   padding: 5px;
   font-size: 20px;
+  font-weight: bold;
   color: white;
+  background-color: rgb(232, 43, 75);
 }
 
 .stock-infobar {
