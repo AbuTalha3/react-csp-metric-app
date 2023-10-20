@@ -7,9 +7,16 @@ body {
 }
 
 .detHeader {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 2em 1em;
   background-size: contain;
+}
+
+.price-detail-page {
+  align-self: flex-end;
+  padding-top: -19px;
+  font-weight: bold;
 }
 
 .stock-details h1 {
@@ -34,11 +41,12 @@ body {
   padding: 15px;
   font-size: x-large;
   font-weight: bold;
+  color: blanchedalmond;
 }
 
 .company-share-view {
   padding: 5px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
   background-color: rgb(232, 43, 75);

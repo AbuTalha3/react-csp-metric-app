@@ -13,16 +13,23 @@ const Detail = () => {
 
     <div className="flex">
       <nav className="nav-toggle">
-        <NavLink to="/" className="nav-toggle-back"><AiOutlineArrowLeft style={{ color: 'seashell' }} /></NavLink>
+        <NavLink to="/" className="nav-toggle-back">
+          <AiOutlineArrowLeft style={{ color: 'seashell' }} />
+          2023
+        </NavLink>
       </nav>
       {
                 selectedStockId ? (
                   <div className="stock-details">
                     <div className="detHeader">
                       <h1>{stock.companyName}</h1>
+                      <span className="price-detail-page">
+                        Price: $
+                        {stock.price}
+                      </span>
                     </div>
                     <div className="stock-metric-details">
-                      <p className="company-share-view">COMPANY/SHARE VIEW</p>
+                      <p className="company-share-view">COMPANY BACKGROUND -2023</p>
                     </div>
                     <div className="stock-bar-container">
                       <div className="stock-infobar">
