@@ -62,7 +62,6 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  
 }
 
 .stock-list-company {
@@ -113,7 +112,7 @@
 
 .stock-company-item:nth-child(4n+2),
 .stock-company-item:nth-child(4n+3) {
-  background-color: rgb(255, 50, 85); 
+  background-color: rgb(255, 50, 85);
 }
 
 .price {
