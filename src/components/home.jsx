@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { BsArrowRightCircle } from 'react-icons/bs';
+import { BsArrowRightCircle, BsChevronLeft } from 'react-icons/bs';
 import './styles/home.css';
 import { fetchStocks, select, search } from '../redux/homeSlice';
 
@@ -25,11 +25,15 @@ const Home = () => {
     <div className="stock-list-container">
       <nav className="stock-list-navbar">
         <div className="header-year-view">
-          <i className="fa-solid fa-arrow-up fa-rotate-270 fa-xs icon" />
-          <h2 className="stock-year">2023</h2>
+          <div className="year-and-arrow">
+            <BsChevronLeft className="arrow-react" />
+            <h2 className="stock-year">2023</h2>
+          </div>
           <h1 className="stock-list-heading">more views</h1>
-          <i className="fa-solid fa-microphone fa-sm icon1" />
-          <i className="fa-solid fa-gear fa-sm icon2" />
+          <div className="mic-setting">
+            <i className="fa-solid fa-microphone fa-sm icon1" />
+            <i className="fa-solid fa-gear fa-sm icon2" />
+          </div>
         </div>
         <div className="stock-list-searchbar">
           <label htmlFor="search">

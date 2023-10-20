@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import './styles/details.css';
-import { AiOutlineArrowLeft } from 'react-icons/ai';
+import './styles/home.css';
+import { BsChevronLeft } from 'react-icons/bs';
 
 const Detail = () => {
   const selectedStockId = useSelector((state) => state.stocks.selectedStock);
@@ -10,15 +11,22 @@ const Detail = () => {
     .filter((elem) => elem.id === selectedStockId)[0];
 
   return (
-
-    <div className="flex">
+    <>
       <nav className="nav-toggle">
         <NavLink to="/" className="nav-toggle-back">
-          <AiOutlineArrowLeft style={{ color: 'seashell' }} />
-          2023
+          <div className="year-and-arrow">
+            <BsChevronLeft className="arrow-react" />
+            <h2 className="stock-year">2023</h2>
+          </div>
+          <h1 className="stock-list-heading">city stock views</h1>
+          <div className="mic-setting">
+            <i className="fa-solid fa-microphone fa-sm icon1" />
+            <i className="fa-solid fa-gear fa-sm icon2" />
+          </div>
         </NavLink>
       </nav>
-      {
+      <div className="flex">
+        {
                 selectedStockId ? (
                   <div className="stock-details">
                     <div className="detHeader">
@@ -57,7 +65,8 @@ const Detail = () => {
                 ) : <div>Data not loaded </div>
             }
 
-    </div>
+      </div>
+    </>
   );
 };
 

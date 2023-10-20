@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(253, 34, 71);
+  /* background-color: #FD5294; */
 }
 
 .stock-details {
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 .detHeader {
@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   padding: 2em 1em;
   background-size: contain;
+  background-color: #FD5294;
 }
 
 .price-detail-page {
@@ -30,15 +31,19 @@ body {
 .nav-toggle {
   height: 50px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: rgb(232, 43, 75);
+  background-color: #FD5294;
+  opacity: 0.9;
   width: 100%;
   margin: 0;
 }
 
 .nav-toggle-back {
-  justify-content: left;
+  display: flex;
+  justify-content: space-between;
   padding: 15px;
+  width: 100%;
   font-size: x-large;
   font-weight: bold;
   color: blanchedalmond;
@@ -49,7 +54,8 @@ body {
   font-size: 15px;
   font-weight: bold;
   color: white;
-  background-color: rgb(232, 43, 75);
+  background-color: #f34185;
+  opacity: 0.9;
 }
 
 .stock-infobar {
@@ -68,7 +74,7 @@ body {
 }
 
 .stock-infobar:nth-child(even) {
-  background-color: rgb(243, 24, 60);
+  background-color: #FD5294;
 }
 
 .stock-info-name {
@@ -85,5 +91,6 @@ body {
 }
 
 .stock-infobar:nth-child(odd) {
-  background-color: rgb(243, 49, 82);
+  background-color: #FD5294;
+  opacity: 0.9;
 }
