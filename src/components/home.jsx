@@ -24,6 +24,7 @@ const Home = () => {
   return (
     <div className="stock-list-container">
       <nav className="stock-list-navbar">
+        <h2>2023</h2>
         <h1 className="stock-list-heading"> BEN STOCKS </h1>
         <div className="stock-list-searchbar">
           <label htmlFor="search">
@@ -38,7 +39,7 @@ const Home = () => {
         </div>
       </nav>
       <div className="stock-list-header">
-        <p>NSX</p>
+        <p>STATS BY COMPANY</p>
       </div>
       <ul className="stock-list-company">
         {stocks

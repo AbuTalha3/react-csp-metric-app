@@ -143,7 +143,7 @@ npm test
 
 - GitHub: [@githubhandle](https://github.com/AbuTalha3)
 - Twitter: [@twitterhandle](https://twitter.com/AbuTalha8T)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abu-talha-8203b252/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abu-talha-najeeb-akhun-393b8b292/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +151,8 @@ npm test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- *[Add more company details]*
+- Add more company details
+- Add more datails about trending and profitable companies
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +179,7 @@ If you like this project give it a star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for this great opportunity!
-- I would like to ackowledge Nelson Sakwa the author of the original design on Behance.
+- I would like to ackowledge Nelson Sakwa the author of the [original design](https://www.behance.net/sakwadesignstudio ) on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

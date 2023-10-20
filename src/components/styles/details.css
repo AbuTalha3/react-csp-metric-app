@@ -1,5 +1,5 @@
 body {
-  background-color: #fd4343;
+  background-color: rgb(253, 34, 71);
 }
 
 .stock-details {
@@ -14,7 +14,7 @@ body {
 }
 
 .stock-details h1 {
-  color: rgb(250, 2, 2);
+  color: rgb(253, 34, 71);
   font-size: 1rem;
   justify-content: flex-end;
   display: flex;
@@ -25,10 +25,9 @@ body {
   height: 50px;
   display: flex;
   align-items: center;
-  background-color: #c12b2b;
+  background-color: rgb(232, 43, 75);
   width: 100%;
   margin: 0;
-  margin-top: 5px;
 }
 
 .nav-toggle-back {
@@ -48,7 +47,6 @@ body {
   align-items: center;
   padding: 0 0.5rem;
   height: 10vh;
-  border-radius: 1rem;
   color: seashell;
   font-size: 20px;
   text-align: left;
@@ -61,14 +59,14 @@ body {
 }
 
 .stock-infobar:nth-child(even) {
-  background-color: #f92626;
+  background-color: rgb(243, 24, 60);
 }
 
 .stock-info-name {
   font-size: 25px;
   font-weight: bold;
   color: rgb(249, 249, 249);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'lato', sans-serif;
 }
 
 .stock-metric-info {
@@ -78,5 +76,5 @@ body {
 }
 
 .stock-infobar:nth-child(odd) {
-  background-color: #f75757;
+  background-color: rgb(243, 49, 82)
 }
