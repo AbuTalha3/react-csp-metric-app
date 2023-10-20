@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { configureStore } from '@reduxjs/toolkit';
 import { stockSlice } from './redux/homeSlice';
 
