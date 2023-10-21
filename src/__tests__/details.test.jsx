@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Detail from './details';
+import Detail from '../components/details';
 
 // Mock the Redux store
 const mockStore = configureStore([]);
