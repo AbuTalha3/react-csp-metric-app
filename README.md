@@ -7,7 +7,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [Live Video](#live-video)
+  - [Video Presentation](#live-video-Presentation)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -25,7 +25,7 @@
 
 # 📖 [React-csp-metric-app] <a name="about-project"></a>
 
-*[React-csp-metric-app]* In this capstone project, I developed an innovative app that provides comprehensive numarical information about a wide range of active company stocks data. The app showcases detailed company profiles along with their performance metrics, allowing users to search their companies.This React capstone project is about building a mobile web application to check a list of stock market (metrics /numeric values) that will be created by making use of React and Redux.An API will be selected that provides numeric data about a topic (Stocks) and then build the webapp around it. The webapp has have several pages:
+*[React-csp-metric-app]* In this capstone project, I developed an innovative Stock app that provides comprehensive numarical information about a wide range of active companies stocks data. The app showcases detailed company profiles along with their performance metrics, allowing users to search their companies and see their Market Capitalisation and PROFIT DIVIDENDS which are real time and updated every 1 minute, 15 minutes, 30 minutes, 1 hour and daily historical stock prices. The App has have several pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,10 +78,11 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](will be added soon)
 
-## 🚀 Video Link <a name="live-demo"></a>
-- [Video Link](wil be added on demand)
+- [Live Demo Link](https://cheerful-haupia-208b4f.netlify.app/)
+
+## 🚀 Video Presentation Link <a name="live-demo"></a>
+- [Video Presentation](https://www.loom.com/share/d7bac63093e246f1a7a6b9d58f6b85b9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +143,7 @@ npm test
 
 - GitHub: [@githubhandle](https://github.com/AbuTalha3)
 - Twitter: [@twitterhandle](https://twitter.com/AbuTalha8T)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abu-talha-8203b252/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abu-talha-najeeb-akhun-393b8b292/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +151,8 @@ npm test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- *[Add more company details]*
+- Add more company details
+- Add more datails about trending and profitable companies
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +179,7 @@ If you like this project give it a star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse for this great opportunity!
-- I would like to ackowledge Nelson Sakwa the author of the original design on Behance.
+- I would like to ackowledge Nelson Sakwa the author of the [original design](https://www.behance.net/sakwadesignstudio ) on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

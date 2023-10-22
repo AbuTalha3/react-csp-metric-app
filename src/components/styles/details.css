@@ -1,0 +1,96 @@
+body {
+  /* background-color: #FD5294; */
+}
+
+.stock-details {
+  /* padding: 5px; */
+}
+
+.detHeader {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
+  background-size: contain;
+  background-color: #fd5294;
+}
+
+.price-detail-page {
+  align-self: flex-end;
+  padding-top: -19px;
+  font-weight: bold;
+}
+
+.stock-details h1 {
+  color: rgb(250, 246, 247);
+  font-size: 1.5rem;
+  justify-content: flex-end;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.nav-toggle {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fd5294;
+  opacity: 0.9;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-toggle-back {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+.company-share-view {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #f34185;
+  opacity: 0.9;
+}
+
+.stock-infobar {
+  align-items: center;
+  padding: 0 0.5rem;
+  height: 10vh;
+  color: seashell;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stock-infobar span {
+  line-height: 40px;
+}
+
+.stock-infobar:nth-child(even) {
+  background-color: #fd5294;
+}
+
+.stock-info-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(249, 249, 249);
+  font-family: 'lato', sans-serif;
+}
+
+.stock-metric-info {
+  font-weight: bolder;
+  font-size: 25px;
+  color: seashell;
+}
+
+.stock-infobar:nth-child(odd) {
+  background-color: #fd5294;
+  opacity: 0.9;
+}
