@@ -178,8 +178,8 @@ If you like this project give it a star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for this great opportunity!
-- I would like to ackowledge Nelson Sakwa the author of the [original design](https://www.behance.net/sakwadesignstudio ) on Behance.
+- I would like to thank Microverse for this great opportunity to learn React And Redux!
+- I would like to acknowledge Nelson Sakwa the author of the [original design](https://www.behance.net/sakwadesignstudio ) on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
