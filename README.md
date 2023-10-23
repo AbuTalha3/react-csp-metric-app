@@ -152,7 +152,8 @@ npm test
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Add more company details
-- Add more datails about trending and profitable companies
+- Add more data about trending and profitable companies
+- More Pages for detailed data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
