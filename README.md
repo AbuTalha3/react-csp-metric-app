@@ -72,6 +72,7 @@
 
 - *Company Stock List*
 - *Company Stock Details*
+-  *Company live Par*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
