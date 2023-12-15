@@ -108,7 +108,7 @@ Example commands:
 
 *git clone git@github.com:AbuTalha3/react-csp-metric-app.git
 
-*cd react-csp-metric-app
+*`cd react-csp-metric-app`
 
 *git checkout development
 
