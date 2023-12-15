@@ -126,7 +126,7 @@ To run the project, execute the following command:
 
 - Start the development server
 
-- npm start
+- `npm start`
 
 ### Run tests
 
