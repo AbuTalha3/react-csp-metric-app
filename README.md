@@ -118,7 +118,7 @@ Install this project with:
 
 - Install Node Modules
 
-- npm install
+- `npm install`
 
 ### Usage
 
