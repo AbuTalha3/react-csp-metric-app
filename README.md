@@ -116,7 +116,7 @@ Example commands:
 
 Install this project with:
 
-- Install Node Modules
+- `Install Node Modules`
 
 - `npm install`
 
