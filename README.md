@@ -25,7 +25,7 @@
 
 # 📖 [React-csp-metric-app] <a name="about-project"></a>
 
-*[React-csp-metric-app]* In this capstone project, I developed an innovative Stock app that provides comprehensive numerical information about a wide range of active companies' stock data. The app showcases detailed company profiles along with their performance metrics, allowing users to search their companies and see their `Market Capitalisation` and `PROFIT DIVIDENDS` which are real-time and updated every `1 minute`, `15 minutes`, `30 minutes`, `1 hour`, and `daily historical stock prices`. The App has had several pages.
+**React-csp-metric-app** In this capstone project, I developed an innovative Stock app that provides comprehensive numerical information about a wide range of active companies' stock data. The app showcases detailed company profiles along with their performance metrics, allowing users to search their companies and see their `Market Capitalisation` and `PROFIT DIVIDENDS` which are real-time and updated every `1 minute`, `15 minutes`, `30 minutes`, `1 hour`, and `daily historical stock prices`. The App has had several pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
